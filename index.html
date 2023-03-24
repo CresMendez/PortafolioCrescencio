@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- Cambiar idioma -->
+<html lang="en">
+<head>
+    <!-- 1.- Codificacion del idioma, 2.- Funciona solo en edge, 3.- Responsivo -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/756f501363.js" crossorigin="anonymous"></script>
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!--<link rel="stylesheet" href="./assets/css/normalize.css">-->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/sobreMi.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/formacion.css">
+    <link rel="stylesheet" href="./assets/css/experiencia.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <title>Portafolio Alura</title>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="cabecera__container">
+            <img src="./assets/img/mifoto.jpg" alt="Logo del portafolio" class="cabecera__imagen">
+            <nav class="cabecera__nav">
+                <ul class="cabecera__container__lista">
+                    <li><a class="cabecera__container__lista__link ocultar" href="#sobreMi">Sobre mi</a></li>
+                    <li><a class="cabecera__container__lista__link ocultar" href="#skills">Skills</a></li>
+                    <li><a class="cabecera__container__lista__link ocultar" href="#hobbies">Hobbies</a></li>
+                    <li><a class="cabecera__container__lista__link ocultar" href="#formacion">Formacion</a></li>
+                    <li><a class="cabecera__container__lista__link ocultar" href="#experiencia">Proyectos</a></li>
+                    <li><a class="cabecera__container__lista__link ocultar" href="#contacto">contacto</a></li>
+                    <li><i class="fa-solid fa-bars cabecera--modificado"></i></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="main">
+            <img class="main__img" src="./assets/img/mifoto.jpg" alt="Imagen principal">
+            <div class="main__contenedor">
+                <h1 class="main__titulo">Hola, mi nombre es Crescencio Mendez, Desarrollador Web</h1>
+                <p class="main__texto">Soy desarrollador WEB con en enfoque en FrontEnd, actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+                <ul class="main__lista">
+                    <li class="main__lista__li"><a class="main__lista__link" href="#">Github <span><i class="fa-solid fa-square-up-right"></i></span></a></li>
+                    <li class="main__lista__li"><a class="main__lista__link" href="#">Linkedin <span><i class="fa-solid fa-square-up-right"></i></span></a></li>
+                    <li class="main__lista__li"><a class="main__lista__link" href="#">Instagram <span><i class="fa-solid fa-square-up-right"></i></span></a></li>
+                    <li class="main__lista__li"><a class="main__lista__link" href="#">Currículo <span><i class="fa-solid fa-square-up-right"></i></span></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="sobreMi" id="sobreMi">
+            <div class="sobreMi__container">
+                <h2 class="sobreMi__titulo">Sobre mi</h2>
+                <p class="sobreMi__texto">Programador Jr con enfoque en Desarrollo Web, busco oportunidad para adquirir experiencia como desarrollador web, apasionado por la programación y la tecnología, con años de experiencia trabajando como soporte técnico. 
+
+                <br><br>    Busco siempre trabajar en equipo, cooperando con todos y apoyando de la mejor manera posible, responsable, cada día con muchas ganas de aprender nuevas tecnologías. 
+                    
+                <br><br>    ¡La magia no existe, la programación si!</p>
+                <img class="sobreMi__imagen" src="./assets/img/firma.png" alt="Sobre mi firma">
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h2 class="skills__titulo">Skills</h2>
+            <ul class="skills__lista">
+                <li class="skills__li"><img class="skills__imagen" src="./assets/img/html.svg" alt="HTML"> <span>HTML</span></li>
+                <li class="skills__li"><img class="skills__imagen" src="./assets/img/js.svg" alt="js"> <span>Javascript</span></li>
+                <li class="skills__li"><img class="skills__imagen" src="./assets/img/php.svg" alt="php"> <span>PHP</span></li>
+                <li class="skills__li"><img class="skills__imagen" src="./assets/img/nodjs.svg" alt="node"> <span>Node</span></li>
+                <li class="skills__li"><img class="skills__imagen" src="./assets/img/react.svg" alt="react"> <span>React</span></li>
+                <li class="skills__li"><img class="skills__imagen" src="./assets/img/css.svg" alt="css"> <span>CSS</span></li>
+            </ul>
+        </section>
+        <section class="hobbies" id="hobbies">
+            <h2 class="hobbies__titulo">Hobbies</h2>
+            <ul class="hobbies__lista">
+                <li class="hobbies__li"><img class="hobbies__imagen" src="./assets/img/patinaje.svg" alt="Patinaje"><span>Patinaje</span></li>
+                <li class="hobbies__li"><img class="hobbies__imagen" src="./assets/img/guitar.svg" alt="Tocar bajo"><span>Tocar bajo</span></li>
+                <li class="hobbies__li"><img class="hobbies__imagen" src="./assets/img/musica.svg" alt="Musica"><span>Oír música</span></li>
+                <li class="hobbies__li"><img class="hobbies__imagen" src="./assets/img/vertv.svg" alt="Ver serie"><span>Ver series</span></li>
+                <li class="hobbies__li"><img class="hobbies__imagen" src="./assets/img/cocinar.svg" alt="Cocinar"><span>Cocinar</span></li>
+                <li class="hobbies__li"><img class="hobbies__imagen" src="./assets/img/fotografia.svg" alt="Tomar fotos"><span>Tomar fotos</span></li>
+            </ul>
+        </section>
+        <section class="formacion" id="formacion">
+            <h2 class="formacion__container__titulo">Formación académica</h2>
+            <div class="formacion__container">
+                <div class="formacion__container__escuelas">
+                    <img class="formacion__container__escuelas__imagen" src="./assets/img/analisis.png" alt="analisis">
+                    <p class="formacion__container__escuelas__titulo">Análisis de datos</p>
+                    <p class="formacion__container__escuelas__texto">2018 - UFRP</p>
+                </div>
+                <div class="formacion__container__escuelas">
+                    <img class="formacion__container__escuelas__imagen" src="./assets/img/alura.png" alt="alura">
+                    <p class="formacion__container__escuelas__titulo">Formación en UX Design</p>
+                    <p class="formacion__container__escuelas__texto">2019 - Alura</p>
+                </div>
+                <div class="formacion__container__escuelas">
+                    <img class="formacion__container__escuelas__imagen" src="./assets/img/postgrado.png" alt="postgrado">
+                    <p class="formacion__container__escuelas__titulo">Posgrado en design</p>
+                    <p class="formacion__container__escuelas__texto">En curso - UFRJ</p>
+                </div>
+            </div>
+        </section>
+        <section class="experiencia" id="experiencia">
+            <div class="experiencia__container">
+                <h2 class="experiencia__container__titulo">Experiencia profesional</h2>
+                <div class="experiencia__container__proyectos">
+                    <img class="experiencia__container__proyectos__imagen" src="./assets/img/encriptador.png" alt="encriptador1">
+                    <div class="experiencia__container__proyectos__contenedor">
+                        <p class="experiencia__container__proyectos__titulo">Encriptador de texto</p>
+                        <p class="experiencia__container__proyectos__texto">Challenge Oracle
+                        </p>
+                        <div class="experiencia__container__proyectos__button">
+                            <button ><a class="experiencia__container__proyectos__button__links" href="">Repositório</a></button>
+                            <button ><a class="experiencia__container__proyectos__button__links" href="">Ver demo</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="experiencia__container__proyectos container__invertido">
+                    <img class="experiencia__container__proyectos__imagen" src="./assets/img/juegoCreado.png" alt="juego1">
+                    <div class="experiencia__container__proyectos__contenedor">
+                        <p class="experiencia__container__proyectos__titulo">Juego creado con HTML  y JavaScript</p>
+                        <p class="experiencia__container__proyectos__texto">Challenge Oracle
+                        </p>
+                        <div class="experiencia__container__proyectos__button">
+                            <button ><a class="experiencia__container__proyectos__button__links" href="">Repositório</a></button>
+                            <button ><a class="experiencia__container__proyectos__button__links" href="">Ver demo</a></button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="experiencia__container__proyectos">
+                    <img class="experiencia__container__proyectos__imagen" src="./assets/img/encriptador2.png" alt="encriptador2">
+                    <div class="experiencia__container__proyectos__contenedor">
+                        <p class="experiencia__container__proyectos__titulo">Encriptador de texto</p>
+                        <p class="experiencia__container__proyectos__texto">Challenge Oracle
+                        </p>
+                        <div class="experiencia__container__proyectos__button">
+                            <button ><a class="experiencia__container__proyectos__button__links" href="">Repositório</a></button>
+                            <button ><a class="experiencia__container__proyectos__button__links" href="">Ver demo</a></button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="experiencia__container__proyectos container__invertido">
+                    <img class="experiencia__container__proyectos__imagen" src="./assets/img/juegoCreado2.png" alt="">
+                    <div class="experiencia__container__proyectos__contenedor">
+                        <p class="experiencia__container__proyectos__titulo">Juego creado con HTML, CSS y JavaScript</p>
+                        <p class="experiencia__container__proyectos__texto">Challenge Oracle
+                        </p>
+                        <div class="experiencia__container__proyectos__button">
+                            <button ><a class="experiencia__container__proyectos__button__links" href="">Repositório</a></button>
+                            <button ><a class="experiencia__container__proyectos__button__links" href="">Ver demo</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <div class="contacto__container">
+                <img class="contacto__img" src="./assets/img/contacto_img.png" alt="Contacto imagen">
+                <div class="contacto__container__con">
+                    <h2 class="contacto__container__titulo">Contacto</h2>
+                    <p class="contacto__container__texto">¿Quieres contactarme?<br>
+                        Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</p>
+                    <form action="" class="contacto__container__formulario">
+                    <div class="contacto__container__formulario__contenedor">
+                        <label for="">Nombre</label>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                        <div class="contacto__container__formulario__contenedor">
+                        <label for="">E-mail</label>
+                        <input type="email" placeholder="E-mail">
+                    </div>
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Fulana de Tal <br>2022<br></p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
