@@ -24,9 +24,7 @@
 
 .main__lista{
     display: flex;
-    /*flex-direction: column;*/
     flex-wrap: wrap;
-    
     padding: 1rem 0;
     gap: 10px;
 }
@@ -83,4 +81,5 @@
         color: var(--color-secundario);
         font-weight: 400;
     }
+    /*hola*/
 }
